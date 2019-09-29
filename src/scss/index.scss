@@ -1,0 +1,20 @@
+$font-path: '../assets/fonts/';
+
+@font-face {
+  font-family: 'ArcadeClassic';
+  src: url('#{$font-path}ArcadeClassic.eot?#iefix') format('embedded-opentype'), url('#{$font-path}ArcadeClassic.woff') format('woff'), url('#{$font-path}ArcadeClassic.ttf') format('truetype'),
+    url('#{$font-path}ArcadeClassic.svg#ArcadeClassic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  border: 1px solid #cecece;
+}
